@@ -6,6 +6,7 @@
   --background-color: #2f303a;
   --fone-color: #f5f4fa;
   --page-color: #e5e5e5;
+  --auth-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -72,7 +73,7 @@ footer {
 }
 
 .auth {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--auth-color);
 }
 
 address {
