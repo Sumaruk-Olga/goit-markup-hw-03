@@ -216,6 +216,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  padding: 6px 22px;
 }
 
 .filter-button {
