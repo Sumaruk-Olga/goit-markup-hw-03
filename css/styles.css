@@ -27,6 +27,11 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.list {
+  list-style: none;
+}
+
 .container {
   width: 1200px;
   padding: 0px 15px;
@@ -46,15 +51,59 @@ p {
   margin: -1px;
 }
 
+.nav-list,
+.filter,
+.auth-nav-list,
+.header-container,
+.benefits-list,
+.all-works,
+.h2-title-list,
+.team-list {
+  display: flex;
+}
+
+.benefits-list,
+.all-works {
+  flex-wrap: wrap;
+}
+
+.benefits-list .list {
+  width: 270px;
+}
+.all-works .list:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.all-works .list {
+  width: 370px;
+}
+
+.h2-title-list .list {
+  width: calc(100%-60) / 3;
+}
+
+.header-container {
+  align-items: center;
+}
+
 .nav-list .list:not(:last-child),
 .auth-nav-list .list:not(:last-child) {
-  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.auth-nav-list {
+  margin-left: auto;
 }
 
 .nav,
 .auth-nav,
 .auth {
   text-decoration: none;
+  display: block;
+}
+.nav,
+.auth-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav.current {
@@ -81,7 +130,9 @@ p {
   text-decoration: none;
 }
 .header .logo {
-  margin-bottom: 93px;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .span-header {
   color: var(--title-color);
@@ -245,10 +296,6 @@ p {
   letter-spacing: 0.03em;
 }
 
-.list {
-  list-style: none;
-}
-
 .benefits .container {
   padding: 94px 0px;
 }
@@ -260,9 +307,17 @@ p {
 
 .team .list:not(:last-child),
 .team-foto,
-.container-portfolio .list:not(:last-child),
-.our-works .list:not(:last-child) {
+.container-portfolio .list:not(:last-child) {
   margin-bottom: 30px;
+}
+.h2-title-list-foto {
+  display: block;
+}
+
+.benefits-list .list:not(:last-child),
+.h2-title-list .list:not(:last-child),
+.team-list .list:not(:last-child) {
+  margin-right: 30px;
 }
 
 .footer .container {
@@ -276,7 +331,7 @@ p {
 }
 
 .filter .list:not(:last-child) {
-  margin-bottom: 8px;
+  margin-right: 8px;
 }
 
 .portfolio .container {
@@ -295,4 +350,8 @@ p {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+.all-works .list:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
