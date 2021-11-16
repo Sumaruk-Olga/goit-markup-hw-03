@@ -154,6 +154,11 @@ p {
   padding-bottom: 60px;
 }
 
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .header {
   background-color: var(--white-color);
   font-size: 14px;
@@ -230,6 +235,16 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-hero {
+  justify-content: center;
+  align-items: center;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .section-hero {
@@ -261,7 +276,11 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   min-width: 200px;
   padding: 10px 32px;
+  justify-content: center;
+  margin-left: 500px;
+  margin-right: auto;
 }
+
 .button {
   font-weight: 500;
   line-height: 1.62;
