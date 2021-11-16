@@ -150,6 +150,8 @@ p {
 
 .footer {
   background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .header {
@@ -232,9 +234,6 @@ p {
 
 .section-hero {
   background-color: var(--background-color);
-}
-
-.container-hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -253,7 +252,6 @@ p {
 .main-button {
   font-weight: 700;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -298,12 +296,12 @@ p {
   letter-spacing: 0.03em;
 }
 
-.benefits .container {
+.benefits {
   padding: 94px 0px;
 }
 
-.our-works .container,
-.team .container {
+.our-works,
+.team {
   padding-bottom: 94px;
 }
 
@@ -326,11 +324,6 @@ p {
   margin-right: 30px;
 }
 
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .footer .logo,
 .all-works-foto {
   margin-bottom: 20px;
@@ -340,7 +333,7 @@ p {
   margin-right: 8px;
 }
 
-.portfolio .container {
+.portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
