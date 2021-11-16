@@ -84,6 +84,7 @@ p {
 }
 
 .header-container {
+  display: flex;
   align-items: center;
 }
 
@@ -243,8 +244,6 @@ p {
 .container-hero {
   justify-content: center;
   align-items: center;
-  padding-left: auto;
-  padding-right: auto;
 }
 
 .section-hero {
@@ -268,7 +267,6 @@ p {
 .main-button {
   font-weight: 700;
   line-height: 1.87;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
